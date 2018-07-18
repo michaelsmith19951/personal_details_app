@@ -1,0 +1,19 @@
+<h1> Thanks for entering your name and physical address, <%=first_name_input%> <%=last_name_input%>! </h1>
+<h1> So, you are from <%=address_input%>, <%=city_input%>, <%=state_input%>. Your zip code is <%=zip_input%>. </h1>
+<h1> Lastly, please enter your three favorite numbers. </h1>
+<form method="post" action="personal_details_fav_numbers_page">
+<input type="hidden" name="first_name_input" value="<%=first_name_input%>">
+<input type="hidden" name="last_name_input" value="<%=last_name_input%>">
+<input type="hidden" name="address_input" value="<%=address_input%>">
+<input type="hidden" name="city_input" value="<%=city_input%>">
+<input type="hidden" name="state_input" value="<%=state_input%>">
+<input type="hidden" name="zip_input" value="<%=zip_input%>">
+<h3> First Favorite Number </h3>
+<input type="number" name="fav_num1" required autofocus>
+<h3> Second Favorite Number </h3>
+<input type="number" name="fav_num2" required>
+<h3> Third Favorite Number </h3>
+<input type="number" name="fav_num3" required>
+<br><br>
+<input type="submit" value = "Next" onclick>
+</form>

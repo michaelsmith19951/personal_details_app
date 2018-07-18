@@ -1,10 +1,10 @@
 <h1> Welcome, <%=first_name_input%> <%=last_name_input%>! </h1>
 <h1> Please enter your physical address.</h1>
-<form method = "post" action = "physical_address">
+<form method = "post" action = "personal_details_physical_address_page">
 <input type = "hidden" name = "first_name_input" value = "<%=first_name_input%>">
 <input type = "hidden" name = "last_name_input" value = "<%=last_name_input%>">
 <h3> Physical Address </h3>
-<input type = "text" name = "physical_address" required autofocus>
+<input type = "text" name = "address_input" required autofocus>
 <h3> City </h3>
 <input type = "text" name = "city_input" required>
 <h3> State </h3>
