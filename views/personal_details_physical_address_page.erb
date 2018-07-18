@@ -1,0 +1,16 @@
+<h1> Welcome, <%=first_name_input%> <%=last_name_input%>! </h1>
+<h1> Please enter your physical address.</h1>
+<form method = "post" action = "physical_address">
+<input type = "hidden" name = "first_name_input" value = "<%=first_name_input%>">
+<input type = "hidden" name = "last_name_input" value = "<%=last_name_input%>">
+<h3> Physical Address </h3>
+<input type = "text" name = "physical_address" required autofocus>
+<h3> City </h3>
+<input type = "text" name = "city_input" required>
+<h3> State </h3>
+<input type = "text" name = "state_input" required>
+<h3> Zip Code </h3>
+<input type = "text" name = "zip_input" required>
+<br><br>
+<input type = "submit" value = "Next" onclick>
+</form>
