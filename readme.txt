@@ -1,0 +1,1 @@
+This is a basic web app that asks the user for some of their personal details. These include their first name, last name, street address, city, state, zip code, and three favorite numbers. The final page summarizes the user's personal details. All pages are styled with css.
